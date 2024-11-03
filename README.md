@@ -37,7 +37,9 @@ sudo vantage-cli fan
 sudo vantage-cli fnlock
 ```
 
-You can always use ```-h``` or ```--help``` to see what are the available options. To change the settings you will need sudo command in front. Passing the command without further argument will toggle the selected settings. 
+* You can always use ```-h``` or ```--help``` to see what are the available options.
+* To change the settings you will need sudo command in front.
+* Passing the command without further argument will toggle the selected settings. 
 
 
 ## ♨️ Uninstall
