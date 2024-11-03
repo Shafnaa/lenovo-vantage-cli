@@ -112,10 +112,10 @@ int main(int argc, char *argv[])
             {
                 if (strcmp(argv[2], "-h") == 0 || strcmp(argv[2], "--help") == 0)
                 {
-                    printf("Usage: %s conservation [OPTIONS] STATUS\n", argv[0]);
+                    printf("Usage: %s conservation [OPTIONS] MODE\n", argv[0]);
                     printf("Options:\n");
                     printf("  -h, --help\tDisplay this help message\n");
-                    printf("\nCommands:\n");
+                    printf("\nModes:\n");
                     printf("  on, 1\t\tEnable conservation mode\n");
                     printf("  off, 0\tDisable conservation mode\n");
                 }
@@ -205,10 +205,10 @@ int main(int argc, char *argv[])
             {
                 if (strcmp(argv[2], "-h") == 0 || strcmp(argv[2], "--help") == 0)
                 {
-                    printf("Usage: %s fan [OPTIONS] STATUS\n", argv[0]);
+                    printf("Usage: %s fan [OPTIONS] MODE\n", argv[0]);
                     printf("Options:\n");
                     printf("  -h, --help\tDisplay this help message\n");
-                    printf("\nStatus:\n");
+                    printf("\nMode:\n");
                     printf("  silent, 0\tSuper Silent mode\n");
                     printf("  standard, 1\tStandard mode\n");
                     printf("  dust, 2\tDust Cleaning mode\n");
@@ -323,10 +323,10 @@ int main(int argc, char *argv[])
             {
                 if (strcmp(argv[2], "-h") == 0 || strcmp(argv[2], "--help") == 0)
                 {
-                    printf("Usage: %s fnlock [OPTIONS] STATUS\n", argv[0]);
+                    printf("Usage: %s fnlock [OPTIONS] MODE\n", argv[0]);
                     printf("Options:\n");
                     printf("  -h, --help\tDisplay this help message\n");
-                    printf("\nStatus:\n");
+                    printf("\nModes:\n");
                     printf("  on, 1\t\tEnable FN Lock\n");
                     printf("  off, 0\tDisable FN Lock\n");
                 }
